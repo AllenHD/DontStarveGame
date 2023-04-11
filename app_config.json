@@ -1,0 +1,8 @@
+{
+    "executable": "./MacOS/dontstarve", 
+    "data_dir": "~/Documents/Klei/DoNotStarve", 
+    "app_name": "Don't Starve", 
+    "app_dir": ".", 
+    "platform": "osx", 
+    "host": "https://dontstarve-release.appspot.com"
+}
