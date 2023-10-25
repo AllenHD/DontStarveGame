@@ -1,4 +1,21 @@
-	
+
+--TERRAIN_TYPES: 一个表格，包含了游戏中所有地形块的名称和属性信息，每个地形块都是一个表格，其中包含以下信息：
+--	name: 地形块的名称。
+--	is_ground: 表示地形块是否是地面，如果是则为 true。
+--	is_border: 表示地形块是否是地图边界，如果是则为 true。
+--	edge_build_allowed: 表示是否允许在地形块的边缘上建造建筑，如果允许则为 true。
+--	needs_grass: 表示是否需要在地形块上生长草，如果需要则为 true。
+--	noise_texture: 表示地形块的噪声纹理。
+--	runsound: 表示脚步声的音效名称。
+--	walksound: 表示行走声的音效名称。
+--	snow_sound: 表示在该地形块上行走时被雪覆盖时的音效名称。
+--	grass_sound: 表示在该地形块上行走时踩到草时的音效名称。
+--	metal: 表示该地形块是否是金属地形块，如果是则为 true。
+--	minimap_color: 表示该地形块在小地图中的颜色。
+--	ground_texture: 表示该地形块在游戏中的贴图。
+--	animated: 表示该地形块是否是动画地形块，如果是则为 true。
+--	animations: 如果 animated 为 true，则该表格包含了地形块的动画信息，包括动画帧数、循环间隔等。
+
 local TERRAIN = 
 	{ 
 	-- Lots of Trees, rarely haunted

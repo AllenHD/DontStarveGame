@@ -76,6 +76,7 @@ local states=
     
     
     State{
+        --死亡
         name = "death",
         tags = {"busy"},
         
@@ -90,6 +91,7 @@ local states=
     },    
     
     State{
+        -- 移动之前
         name = "premoving",
         tags = {"moving", "canrotate"},
         

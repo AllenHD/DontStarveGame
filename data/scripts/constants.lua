@@ -177,16 +177,16 @@ GROUND =
 	INVALID = -1,
     IMPASSABLE = 1,
     
-    ROAD = 2,
-    ROCKY = 3,
-    DIRT = 4,
-	SAVANNA = 5,
-	GRASS = 6,
-	FOREST = 7,
-	MARSH = 8,
-	WEB = 9,
-	WOODFLOOR = 10,
-	CARPET = 11,
+    ROAD = 2, -- 道路
+    ROCKY = 3, -- 岩石
+    DIRT = 4,	-- 泥土
+	SAVANNA = 5,	-- 稀疏草原
+	GRASS = 6,		-- 草地
+	FOREST = 7,		-- 森林
+	MARSH = 8,		-- 沼泽
+	WEB = 9,		-- 
+	WOODFLOOR = 10,	-- 木地板
+	CARPET = 11,	-- 地毯
 	CHECKER = 12,
 
 	-- CAVES

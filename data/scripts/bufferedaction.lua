@@ -1,8 +1,11 @@
 
 BufferedAction = Class(function(self, doer, target, action, invobject, pos, recipe, distance)
+    --发起者
     self.doer = doer
     self.target = target
+    -- 目标的初始拥有者
     self.initialtargetowner = self.target and self.target.components.inventoryitem and self.target.components.inventoryitem.owner
+    -- 
     self.action = action
     self.invobject = invobject
     self.pos = pos
